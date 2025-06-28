@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hyder Ali | Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Hyder Ali</h1>
+    <p>Aspiring Web Developer</p>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to My Portfolio</h2>
+    <p>I’m a web developer passionate about building websites and learning new technologies.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a B.Tech Computer Science student learning front-end development. I enjoy building websites using HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript (Basic)</li>
+      <li>PHP (Basic)</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>To-Do App</h3>
+      <p>A basic app to add, delete, and save tasks using JavaScript and local storage.</p>
+    </div>
+    <div class="project">
+      <h3>Personal Portfolio</h3>
+      <p>The current site you're viewing — a simple personal portfolio built to showcase my skills in internship.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="return handleSubmit()">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>© 2025 Hyder Ali. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/Hyder58" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/hyder-ali123" target="_blank">LinkedIn</a>
+        <a href="hyderalishammas7@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
